@@ -1,0 +1,9 @@
+select sum(purchase_amount) as "totalAmount" from orders;
+
+select avg(perchase_amount) as "avgAmount" from orders;
+
+select max(perchase_amount) as "maxAmount" from orders;
+
+select min(perchase_amount) as "minAmount" from orders;
+
+select count(distinct salesman_id) as "countOfSalesman" from orders;
